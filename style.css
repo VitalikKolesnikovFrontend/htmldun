@@ -1,0 +1,485 @@
+body {
+  font-family: Inter;
+  padding-left: 20px;
+}
+table {
+  margin-left: 74px;
+  border: 1px solid #aaa9b7;
+}
+th {
+  border: 1px solid #aaa9b7;
+  padding: 10px;
+}
+td {
+  border: 1px solid #aaa9b7;
+  padding: 10px 10px 10px 0;
+}
+.button {
+  background-color: #aaa9b7;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  margin-left: 18px;
+  margin-top: 100px;
+}
+.title {
+  margin-top: 50px;
+}
+.products__box {
+  margin-left: 74px;
+}
+.box__title {
+  font-weight: 300;
+}
+
+.two__form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 74px;
+}
+.two__input {
+  width: 200px;
+  margin-top: 10px;
+}
+.two__button {
+  margin-top: 10px;
+  height: 20px;
+  width: 200px;
+}
+.two__textarea {
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+}
+.three__table-third {
+  width: 500px;
+}
+.table__text {
+  text-align: center;
+}
+
+.four__box {
+  max-width: 225px;
+  min-height: 140px;
+  border: 1px solid #aaa9b7;
+  margin-left: 74px;
+}
+.four__text-two {
+  white-space: nowrap;
+}
+.box1 {
+  white-space: normal;
+}
+.box2 {
+  white-space: nowrap;
+}
+.box3 {
+  white-space: pre;
+}
+.box4 {
+  white-space: break-spaces;
+}
+
+.five__p,
+.five__div,
+.five__span,
+.five__h,
+.five__button,
+.five__section {
+  background-color: brown;
+}
+.five__p {
+  height: 50px;
+}
+.five__div {
+  width: 50px;
+  flex: 1;
+  margin-bottom: 10px;
+}
+.five__span {
+  height: 50px;
+  width: 150px;
+}
+.five__h {
+  height: 50px;
+}
+.five__button {
+  width: 200px;
+  height: 50px;
+}
+.five__section {
+  height: 50px;
+  width: 150px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.five__box {
+  width: 500px;
+}
+.section__box {
+  display: flex;
+}
+.div__box {
+  display: flex;
+}
+
+.six p {
+  color: aqua;
+}
+.six h2 {
+  color: blue;
+}
+.six #test p {
+  color: violet;
+}
+.six #test .bbb {
+  color: black;
+}
+.six #test h2 {
+  color: yellowgreen;
+}
+.six div p {
+  color: red;
+  font-size: 20px;
+}
+.six div h2 {
+  color: yellow;
+}
+.bbb {
+  font-weight: bold;
+}
+.bbb p {
+  color: brown;
+}
+.seven__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: violet;
+  width: 600px;
+  height: 600px;
+  margin-left: 74px;
+}
+.seven__square {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 3px solid black;
+}
+
+/* .seven__container #child_2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+Элемент child_2, спозицианируется относительно нашего родительского элемента, остальные элементы, все остальные элементы в блоке container сдвинуться и займут место child_2
+*/
+/* .seven__container #child_2 {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+Элемент позиционируется относительно своего исходного положения в потоке документа, все остальные элементы в блоке container остануться на своих местах
+*/
+
+.seven__space {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin-left: 74px;
+  background-image: url(./img/1.png);
+}
+.seven__venus {
+  position: absolute;
+  top: 50px;
+  left: 160px;
+}
+.seven__mars {
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  width: 120px;
+  z-index: 1;
+}
+.seven__moon {
+  position: absolute;
+  width: 200px;
+  left: 120px;
+  top: 180px;
+  z-index: 3;
+}
+.seven__comet {
+  position: absolute;
+  left: 400px;
+  top: 60px;
+  width: 50px;
+}
+.seven__ship {
+  position: absolute;
+  top: 280px;
+  left: 85px;
+  z-index: 3;
+}
+.seven__rocket {
+  position: absolute;
+  left: 125px;
+  top: 157px;
+  z-index: 2;
+  width: 58px;
+}
+.seven__man {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+.eight__square {
+  margin: 30px;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  border: 5px solid black;
+}
+.eight__box #square1 {
+  transform: translate(10px, -21px);
+}
+.eight__box #square2 {
+  transform: scale(0.8);
+}
+.eight__box {
+  display: flex;
+  align-items: center;
+}
+
+.nine__square {
+  background-color: orange;
+}
+.nine__box {
+  display: flex;
+  gap: 10px;
+  width: 523px;
+  height: 182px;
+  margin-left: 74px;
+  background-color: blueviolet;
+}
+.nine__box #square1 {
+  width: 50px;
+  height: 25px;
+}
+.nine__box #square2 {
+  width: 130px;
+  height: 25px;
+}
+.nine__box #square3 {
+  width: 100px;
+  height: 25px;
+}
+.nine__box #square4 {
+  width: 100px;
+  height: 80px;
+}
+.nine__box #square5 {
+  width: 100px;
+  height: 90px;
+}
+.nine__box #square6 {
+  width: 100px;
+  height: 50px;
+}
+.nine #box1 {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.nine #box2 {
+  align-items: center;
+  justify-content: start;
+}
+.nine #box3 {
+  align-items: center;
+  justify-content: end;
+}
+.nine #box4 {
+  align-items: center;
+  justify-content: center;
+}
+.nine #box5 {
+  align-items: center;
+  justify-content: space-between;
+}
+.nine #box6 {
+  align-items: center;
+  justify-content: space-around;
+}
+.nine #box7 {
+  align-items: flex-start;
+  width: 220px;
+  height: 177px;
+}
+.nine #box8 {
+  align-items: flex-end;
+  width: 220px;
+  height: 177px;
+}
+.nine #box9 {
+  align-items: center;
+  width: 220px;
+  height: 177px;
+}
+.nine #box10 {
+  align-items: stretch;
+  width: 220px;
+  height: 177px;
+}
+
+.ten__container {
+  width: 700px;
+  height: 400px;
+  background-color: blanchedalmond;
+}
+.ten__header {
+  height: 60px;
+  background-color: grey;
+  text-align: center;
+}
+.ten__main {
+  background-color: bisque;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+.ten__box {
+  display: flex;
+  justify-content: space-between;
+}
+.ten__items {
+  margin-top: 120px;
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
+.ten__items div {
+  width: 230px;
+}
+.ten__item {
+  background-color: tomato;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 500px;
+}
+.ten__aside {
+  height: 100%;
+  width: 350px;
+  height: 250px;
+  background-color: yellowgreen;
+}
+.ten__footer {
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  background-color: white;
+}
+.ten__container #box1 {
+  background-color: grey;
+}
+.ten__main #item3 {
+  margin-bottom: 10px;
+}
+/* .eleven__parent {
+  width: 700px;
+  height: 400px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eleven__child {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+} */
+.eleven__parent {
+  width: 700px;
+  height: 400px;
+  background-color: grey;
+  position: relative;
+}
+.eleven__child {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.thirteen__square {
+  background-color: brown;
+  width: 400px;
+  height: 400px;
+  padding: 15px 0 24px;
+}
+
+/* для padding можно устанавливать 4 значения : 
+1 - Поля будут установлены одновременно от каждого края элемента,
+2 - Первое значение устанавливает поля от верхнего и нижнего края, второе — от левого и правого, 
+3 - 	Первое значение задает поле от верхнего края,
+второе — одновременно от левого и правого края, а третье — от нижнего края.
+4- Поочередно устанавливается поля от верхнего, правого, нижнего и левого края. */
+
+/* .thirteen__square {
+  background-color: brown;
+  width: 400px;
+  height: 400px;
+  margin: 10px 10px;
+} */
+
+/* для margin можно устанавливать 4 значения: 
+1 - Отступы будут установлены одновременно от каждого края элемента.
+2 - Первое значение устанавливает отступ от верхнего и нижнего края, второе — от левого и правого.
+3 - Первое значение задает отступ от верхнего края, 
+второе — одновременно от левого и правого края, а третье — от нижнего края.
+4 - Поочередно устанавливается отступ от верхнего, правого, нижнего и левого края. */
+
+.twelve__parent {
+  width: 522px;
+}
+.twelve__child {
+  height: 314px;
+  border: 1px solid black;
+  background-image: url(./img/9.png);
+}
+.fourteen__container #child {
+  background-color: blue;
+  border: 1px solid black;
+}
+.fourteen__container {
+  height: 400px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+.fourteen__nav {
+  grid-row: 1 / 5;
+}
+.fourteen__header {
+  grid-column: 2 / 4;
+}
+.fourteen__footer {
+  grid-column: 2 / 4;
+}
+.fourteen__aside {
+  grid-row: 2/4;
+  grid-column: 3;
+}

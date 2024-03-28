@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>HTML/CSS</title>
+  </head>
+  <body>
+    <section class="products">
+      <h1 class="title">Section #1</h1>
+      <button class="button">1</button>
+      <div class="products__box">
+        <h2 class="products__subtitle">Список покупок:</h2>
+        <ul class="products__lists">
+          <li class="products__list">Хлеб</li>
+          <li class="products__list">Масло</li>
+          <li class="products__list">Молоко</li>
+        </ul>
+      </div>
+      <button class="button">2</button>
+      <div class="products__box">
+        <h2 class="products__subtitle">Список покупок:</h2>
+        <ol class="products__lists">
+          <li class="products__list">Хлеб</li>
+          <li class="products__list">Масло</li>
+          <li class="products__list">Молоко</li>
+        </ol>
+      </div>
+      <button class="button">3</button>
+      <div class="products__box">
+        <div class="products__html">
+          <h3 class="box__title">HTML</h3>
+          <p class="box__text">
+            Язык гипертекстовой разметки, служит для создания HTML страниц
+          </p>
+        </div>
+        <div class="products__html">
+          <h3 class="box__title">CSS</h3>
+          <p class="box__text">
+            Каскадные таблицы стилей, служат для стилизации элементов HTML
+            страницы
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="two">
+      <h1 class="title">Section #2</h1>
+      <form class="two__form">
+        <input type="text" class="two__input" placeholder="Плейсхолдер" />
+        <input type="text" class="two__input" value="Value" />
+        <input type="text" class="two__input" value="disabled" disabled />
+        <input type="password" class="two__input" />
+        <textarea cols="30" class="two__textarea" rows="10"></textarea>
+        <input
+          type="submit"
+          value="Кнопка через тег input"
+          class="two__input"
+        />
+        <button class="two__button">Кнопка через тег button</button>
+      </form>
+    </section>
+    <section class="three">
+      <h1 class="products__title">Section #3</h1>
+      <button class="button">1</button>
+      <table class="three__table">
+        <thead>
+          <tr>
+            <th>Ячейка 1</th>
+            <th>Ячейка 2</th>
+            <th>Ячейка 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ячейка 4</td>
+            <td>Ячейка 5</td>
+            <td>Ячейка 6</td>
+          </tr>
+          <tr>
+            <td>Ячейка 7</td>
+            <td>Ячейка 8</td>
+            <td>Ячейка 9</td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="button">2</button>
+      <table class="three__table">
+        <tr>
+          <td colspan="3">Ячейка 1</td>
+        </tr>
+        <tbody>
+          <tr>
+            <td>Ячейка 4</td>
+            <td rowspan="2">Ячейка 5</td>
+            <td>Ячейка 6</td>
+          </tr>
+          <tr>
+            <td>Ячейка 8</td>
+            <td>Ячейка 9</td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="button">3</button>
+      <table class="three__table-third">
+        <thead>
+          <tr>
+            <th rowspan="2">Номер</th>
+            <th colspan="4">Теги</th>
+          </tr>
+          <tr>
+            <th>Тег</th>
+            <th colspan="3">Значение</th>
+          </tr>
+        </thead>
+        <tr>
+          <td class="table__text">1</td>
+          <td class="table__text">p</td>
+          <td class="table__text" colspan="3" rowspan="4">для текста</td>
+        </tr>
+        <tr>
+          <td class="table__text">2</td>
+          <td class="table__text">a</td>
+        </tr>
+        <tr>
+          <td class="table__text">3</td>
+          <td class="table__text">b</td>
+        </tr>
+        <tr>
+          <td class="table__text">4</td>
+          <td class="table__text">i</td>
+        </tr>
+        <tr>
+          <td class="table__text">5</td>
+          <td class="table__text">table</td>
+          <td class="table__text" colspan="3">таблица</td>
+        </tr>
+        <tr>
+          <td class="table__text">6</td>
+          <td class="table__text">tr</td>
+          <td class="table__text" colspan="3">ряд таблицы</td>
+        </tr>
+        <tr>
+          <td class="table__text">7</td>
+          <td class="table__text">td</td>
+          <td class="table__text" colspan="3" rowspan="2">ячейки таблицы</td>
+        </tr>
+        <tr>
+          <td class="table__text">8</td>
+          <td class="table__text">th</td>
+        </tr>
+      </table>
+    </section>
+    <section class="four">
+      <h1 class="title">Section #4</h1>
+      <button class="button">1</button>
+      <div class="four__box box1">
+        But ere she from the church-door stepped She smiled and told us why: 'It
+        was a wicked woman's curse,' Quoth she, 'and what care I?' She smiled,
+        and smiled, and passed it off Ere from the door she stept—
+      </div>
+      <button class="button">2</button>
+      <div class="four__box box2">
+        But ere she from the church-door stepped She smiled and told us why: 'It
+        was a wicked woman's curse,' Quoth she, 'and what care I?' She smiled,
+        and smiled, and passed it off Ere from the door she stept—
+      </div>
+      <button class="button">3</button>
+      <div class="four__box box3">
+        But ere she from the church-door stepped She smiled and told us why: 'It
+        was a wicked woman's curse,' Quoth she, 'and what care I?' She smiled,
+        and smiled, and passed it off Ere from the door she stept—
+      </div>
+      <button class="button">4</button>
+      <div class="four__box box4">
+        But ere she from the church-door stepped She smiled and told us why: 'It
+        was a wicked woman's curse,' Quoth she, 'and what care I?' She smiled,
+        and smiled, and passed it off Ere from the door she stept—
+      </div>
+    </section>
+    <section class="five">
+      <h1 class="title">Section #5</h1>
+      <div class="five__box">
+        <p class="five__p">Это p</p>
+        <div class="div__box">
+          <div class="five__div">Это div</div>
+        </div>
+        <span class="five__span">Это span</span>
+        <input class="five__input" type="text" value="Это input" />
+        <h3 class="five__h">Это h3</h3>
+        <button class="five__button">Это button</button>
+        <div class="section__box">
+          <section class="five__section">Это section 1</section>
+          <section class="five__section">Это section 2</section>
+        </div>
+      </div>
+    </section>
+    <section class="six">
+      <h1 class="title">Section #6</h1>
+      <p>ТЕКСТ</p>
+      <div>
+        <p>ТЕКСТ</p>
+        <p>ТЕКСТ</p>
+        <h2>h2</h2>
+      </div>
+      <div id="test">
+        <p>ТЕКСТ</p>
+        <h2>h2</h2>
+        <p class="bbb">ТЕКСТ bbb</p>
+        <p class="bbb">ТЕКСТ bbb</p>
+      </div>
+      <h1>123456789</h1>
+      <h2>h2</h2>
+      <p class="bbb">ТЕКСТ bbb</p>
+      <p class="bbb">ТЕКСТ bbb</p>
+      <h3>2131312131313</h3>
+      <p>ТЕКСТ</p>
+      <button>12312</button>
+    </section>
+    <section class="seven">
+      <h1 class="title">Section #7</h1>
+      <button class="button">1</button>
+      <div class="seven__container">
+        <div class="seven__square">child_1</div>
+        <div class="seven__square" id="child_2">child_2</div>
+        <div class="seven__square">child_3</div>
+        <div class="seven__square">child_4</div>
+      </div>
+      <button class="button">2</button>
+      <div class="seven__space">
+        <img class="seven__mars" src="./img/2.png" alt="Mars" />
+        <img class="seven__venus" src="./img/3.png" alt="Venus" />
+        <img class="seven__comet" src="./img/4.png" alt="Comet" />
+        <img class="seven__moon" src="./img/5.png" alt="Moon" />
+        <img class="seven__ship" src="./img/6.png" alt="Ship" />
+        <img class="seven__rocket" src="./img/7.png" alt="Rocket" />
+        <img class="seven__man" src="./img/8.png" alt="Man" />
+      </div>
+    </section>
+    <section class="eight">
+      <h1 class="title">Section #8</h1>
+      <div class="eight__box">
+        <div id="square1" class="eight__square"></div>
+        <div id="square2" class="eight__square"></div>
+      </div>
+    </section>
+    <section class="nine">
+      <h1 class="title">Section #9</h1>
+      <button class="button">1</button>
+      <div id="box1" class="nine__box">
+        <div id="square1" class="nine__square"></div>
+        <div id="square1" class="nine__square"></div>
+        <div id="square1" class="nine__square"></div>
+        <div id="square2" class="nine__square"></div>
+        <div id="square2" class="nine__square"></div>
+        <div id="square2" class="nine__square"></div>
+        <div id="square3" class="nine__square"></div>
+      </div>
+      <button class="button">2</button>
+      <div id="box2" class="nine__box">
+        <div id="square2" class="nine__square"></div>
+        <div id="square1" class="nine__square"></div>
+        <div id="square3" class="nine__square"></div>
+      </div>
+      <button class="button">3</button>
+      <div id="box3" class="nine__box">
+        <div id="square2" class="nine__square"></div>
+        <div id="square1" class="nine__square"></div>
+        <div id="square3" class="nine__square"></div>
+      </div>
+      <button class="button">4</button>
+      <div id="box4" class="nine__box">
+        <div id="square2" class="nine__square"></div>
+        <div id="square1" class="nine__square"></div>
+        <div id="square3" class="nine__square"></div>
+      </div>
+      <button class="button">5</button>
+      <div id="box5" class="nine__box">
+        <div id="square2" class="nine__square"></div>
+        <div id="square1" class="nine__square"></div>
+        <div id="square3" class="nine__square"></div>
+      </div>
+      <button class="button">6</button>
+      <div id="box6" class="nine__box">
+        <div id="square2" class="nine__square"></div>
+        <div id="square1" class="nine__square"></div>
+        <div id="square3" class="nine__square"></div>
+      </div>
+      <button class="button">7</button>
+      <div id="box7" class="nine__box">
+        <div id="square4" class="nine__square"></div>
+        <div id="square5" class="nine__square"></div>
+        <div id="square6" class="nine__square"></div>
+        <div id="square4" class="nine__square"></div>
+      </div>
+      <button class="button">8</button>
+      <div id="box8" class="nine__box">
+        <div id="square4" class="nine__square"></div>
+        <div id="square5" class="nine__square"></div>
+        <div id="square6" class="nine__square"></div>
+        <div id="square4" class="nine__square"></div>
+      </div>
+      <button class="button">9</button>
+      <div id="box9" class="nine__box">
+        <div id="square4" class="nine__square"></div>
+        <div id="square5" class="nine__square"></div>
+        <div id="square6" class="nine__square"></div>
+        <div id="square4" class="nine__square"></div>
+      </div>
+      <button class="button">10</button>
+      <div id="box10" class="nine__box">
+        <div id="square4" class="nine__square"></div>
+        <div id="square5" class="nine__square"></div>
+        <div id="square6" class="nine__square"></div>
+        <div id="square4" class="nine__square"></div>
+      </div>
+      <button class="button">11</button>
+      <div id="box11" class="nine__box">
+        <div id="square4" class="nine__square">text text</div>
+        <div id="square5" class="nine__square">text text</div>
+        <div id="square6" class="nine__square">text text</div>
+        <div id="square4" class="nine__square">text text</div>
+      </div>
+    </section>
+    <section class="ten">
+      <h1 class="title">Section #10</h1>
+      <div class="ten__container">
+        <header class="ten__header">Шапка страницы</header>
+        <div class="ten__box">
+          <main class="ten__main">
+            <div class="ten__items">
+              <div class="ten__item">1</div>
+              <div class="ten__item">2</div>
+            </div>
+            <div id="item3" class="ten__item">3</div>
+          </main>
+          <aside class="ten__aside">Боковая панель</aside>
+        </div>
+        <div id="box1" class="ten__box">
+          <footer class="ten__footer">footer</footer>
+          <footer class="ten__footer">footer</footer>
+          <footer class="ten__footer">footer</footer>
+        </div>
+      </div>
+    </section>
+    <section class="eleven">
+      <h1 class="title">Section #11</h1>
+      <div class="eleven__parent">
+        <div class="eleven__child"></div>
+      </div>
+    </section>
+    <section class="twelve">
+      <h1 class="title">Section #12</h1>
+      <div class="twelve__parent">
+        <div class="twelve__child"></div>
+      </div>
+    </section>
+    <section class="thirteen">
+      <h1 class="title">Section #13</h1>
+      <div class="thirteen__square">square</div>
+    </section>
+    <section class="fourteen">
+      <h1 class="title">Section #14</h1>
+      <div class="fourteen__container">
+        <nav id="child" class="foourteen__nav">Nav</nav>
+        <header id="child" class="fourteen__header">Header</header>
+        <main id="child" class="fourteen__main">Main</main>
+        <section id="child" class="fourteen__section">Section</section>
+        <aside id="child" class="fourteen__aside">Aside</aside>
+        <footer id="child" class="fourteen__footer">Footer</footer>
+      </div>
+    </section>
+  </body>
+</html>
